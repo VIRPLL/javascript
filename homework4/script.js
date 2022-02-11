@@ -9,7 +9,7 @@
 
 // - створити функцію яка обчислює та повертає площу кола з радіусом r
 // function ploKol (r) {
-//     let result = 3.14**2;
+//     let result = 3.14*r**2;
 //     return result;
 // }
 //
