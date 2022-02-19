@@ -84,3 +84,9 @@
 
 
 // - Напишіть функцію capitalize(str), яка повертає рядок, у якому кожне слово починається з великої літери.
+// let str = "savchak roman okten";
+// let toUp = (str) => {
+//     return str.split(" ").map(slow=>slow.charAt(0).toUpperCase()+slow.slice(1)).join(" ");
+// }
+//
+// console.log(toUp(str));
