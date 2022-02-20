@@ -1,5 +1,5 @@
 
-// - Створити функцію конструктор для об'єктів User з полями id, name, surname , email, phone
+// // - Створити функцію конструктор для об'єктів User з полями id, name, surname , email, phone
 // function User (id, name, surname, email, phone) {
 //     this.id = id,
 //     this.name = name,
@@ -7,7 +7,7 @@
 //     this.email = email,
 //     this.phone = phone
 // }
-// створити пустий масив, наповнити його 10 об'єктами new User(....)
+// // створити пустий масив, наповнити його 10 об'єктами new User(....)
 // let arr = [
 //     new User(1, "roman","dsa", "dsaw1@fasd.cas", 380431234523),
 //     new User(2, "petro","fas", "dsaw2@fasd.cas", 380651234523),
@@ -20,6 +20,7 @@
 //     new User(9, "nazar","qwda", "dsa9w@fasd.cas", 380431236523),
 //     new User(10, "oleh","hdfg", "dsaw10@fasd.cas", 380431314523)
 // ]
+
 //
 // - Взяти масив з  User[] з попереднього завдання, та відфільтрувати , залишивши тільки об'єкти з парними id (filter)
 // let newFilter = arr.filter(value => {
