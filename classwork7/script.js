@@ -87,6 +87,46 @@
 //
 //
 // -створити класс/функцію конструктор попелюшка з полями ім'я, вік, розмір ноги. Створити масив з 10 попелюшок.
-// Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
-//     За допомоги циклу знайти яка попелюшка повинна бути з принцом.
-//     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
+// class popeluska {
+//     constructor(name, age, foot) {
+//         this.name = name,
+//             this.age = age,
+//             this.foot = foot
+//     }
+// }
+// let newPopel = [
+//     new popeluska("Nastia",21, 37),
+//     new popeluska("olia",22, 35),
+//     new popeluska("vika",19, 38),
+//     new popeluska("oksana",18, 31),
+//     new popeluska("tanyu",25, 32),
+//     new popeluska("olesya",24, 32),
+//     new popeluska("maria",27, 34),
+//     new popeluska("maryana",28, 36),
+//     new popeluska("sofia",22, 39)
+// ];
+//
+// // Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
+// class princ {
+//     constructor(name, age, foot) {
+//         this.name = name,
+//             this.age = age,
+//             this.foot = foot
+//     }
+// }
+// let newPrince = new princ("roman", 23, 37);
+//
+// //     За допомоги циклу знайти яка попелюшка повинна бути з принцом.
+// let para = (popeluska, princ) => {
+//     for (let item of popeluska) {
+//         if (item.foot === princ.foot) {
+//             return `Твоя попелюшка ${item.name}`;
+//         }
+//     }
+// };
+// console.log(para(newPopel, newPrince));
+//
+//
+// //     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
+// let aaa = newPopel.find((item) => (item.foot === newPrince.foot));
+// console.log(aaa);
