@@ -1,0 +1,10 @@
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post {
+    display: block;
+    width: 270px;
+    text-align: center;
+}
