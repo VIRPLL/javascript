@@ -1,0 +1,23 @@
+.all {
+    width: 90%;
+    margin: auto;
+    background-color: #dad3d3;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.com {
+    width: 250px;
+    height: auto;
+    background-color: #d3c8c8;
+    border: 2px solid #000000;
+    padding: 10px;
+    margin: 30px;
+}
+
+.ddas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

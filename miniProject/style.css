@@ -1,0 +1,16 @@
+.divAll {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.divUser {
+    margin: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 130px;
+    width: 200px;
+    background-color: #bbb3b3;
+    border: 2px solid #000000;
+    text-align: center;
+}

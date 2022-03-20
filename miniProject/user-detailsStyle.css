@@ -1,0 +1,39 @@
+.divUser {
+    width: 90%;
+    margin: auto;
+    background-color: #dad3d3;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.ad {
+    margin-left: 20px;
+}
+
+.ads {
+    margin-left: 20px;
+}
+
+.allPost {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.post {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+    background-color: #eedede;
+    border: 2px solid #000000;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+}
+
+.ap {
+    position: absolute;
+    bottom: 10px;
+    left: 34%;
+}
